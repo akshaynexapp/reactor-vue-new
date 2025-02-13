@@ -1,0 +1,40 @@
+back: Back
+cancelText: Cancel
+chooseText: Please choose
+closeText: Close
+confirmDelete: Confirm delete?
+createTime: Create Time
+createUser: Create User
+dark: Dark
+delText: Delete
+disabled: Disabled
+enabled: Enabled
+inputText: Please enter
+light: Light
+loadingText: Loading...
+loginText: Login
+logoutText: Logout
+noText: 'N'
+okText: OK
+operating: Operating
+queryText: Search
+redo: Refresh
+remark: Remark
+resetText: Reset
+saveText: Save
+editText: Edit
+searchText: Search
+sort: Sort
+status: Status
+success: Operation succeeded
+updateTime: Update Time
+updateUser: Update User
+yesText: 'Y'
+detail: Detail
+best: Best
+good: Good
+normal: Normal
+bad: Bad
+worst: Worst
+fold: Fold Panel
+expand: Expand Panel

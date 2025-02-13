@@ -1,0 +1,222 @@
+accessLog:
+  button:
+    clear: 清空
+  label:
+    accessLogList: 日志列表
+    account: 访问人
+    browser: 浏览器
+    ip: IP
+    name: 日志名称
+    success: 是否成功
+    visTime: 访问时间
+    visType: 访问类型
+account:
+  button:
+    add: 新增账号
+  label:
+    account: 账号
+    accountList: 账号列表
+    adminType: 类型
+    adminType-0: 用户
+    adminType-1: 管理员
+    birthday: 生日
+    confirmPassword: 确认密码
+    deleteAccount: 删除账户
+    editAccount: 编辑账户
+    email: 邮箱
+    name: 姓名
+    org: 所属分组
+    orgList: 分组列表
+    orgName: 分组
+    passwordNew: 新密码
+    passwordOld: 旧密码
+    phone: 手机号码
+    pwd: 密码
+    resetPassword: 重置密码
+    role: 角色
+    sex: 性别
+    sex-0: 男
+    sex-1: 女
+    updateAvatar: 更新头像
+  modal:
+    add: 新增账号
+    edit: 编辑账号
+    updatePassword: 修改密码
+  msg:
+    confirmResetPass: 确认重置密码？
+    inputPassword: 请输入新密码
+    notAllowNull: 不能为空
+    passDifferent: 两次输入的密码不一致!
+    passNotAllowSame: 新旧密码不能相同
+    password-weak: 新密码强度不够！
+  placeholder1: 请输入账号或姓名或手机号码
+config:
+  button:
+    add: 新增
+  label:
+    code: 唯一编码
+    configList: 配置列表
+    name: 参数名称
+    sysFlag: 系统参数
+    value: 参数值
+  modal:
+    add: 新增配置
+    edit: 编辑配置
+file:
+  label:
+    fileBucket: 文件仓库
+    fileList: 文件列表
+    fileObjectName: 唯一标识id
+    fileOriginName: 文件名称
+    fileSizeInfo: 文件大小
+    fileSuffix: 文件后缀
+group:
+  button:
+    add: 新增分组
+  label:
+    createName: 创建人
+    createTime: 创建时间
+    groupList: 分组列表
+    name: 名称
+    parent: 父级分组
+  modal:
+    add: 新增分组
+    edit: 编辑分组
+license:
+  button:
+    cancel: 取消
+    edit: 编辑
+    save: 保存
+  label:
+    authCode: 授权码
+    expiration: 到期时间
+    macAddress: mac地址
+    platform: 平台名称
+    quantity: 授权数量
+    regisiter: 注册
+    status: 授权状态
+    sysNo: 系统编号
+  message:
+    authorized: 已授权
+    unauthorized: 未授权,
+  status:
+    'no': 未授权
+    'yes': 已授权
+menu:
+  button:
+    add: 新增菜单
+  label:
+    button: 按钮
+    carryParam: 携带参数
+    component: 组件
+    dir: 目录
+    frameSrc: 外链地址
+    icon: 图标
+    ignoreKeepAlive: 缓存页面
+    isShow: 是否显示
+    menu: 菜单
+    menuList: 菜单列表
+    name: 菜单名称
+    parent: 上级菜单
+    path: 路由地址
+    permCode: 权限标识
+    redirect: 重定向
+    title: 菜单标题
+    type: 菜单类型
+    weight: 权重
+    weight-0: 用户
+    weight-1: 管理员
+  modal:
+    add: 新增菜单
+    edit: 编辑菜单
+onlineUser:
+  label:
+    account: 账号
+    forceExist: 强制下线
+    lastLoginBrowser: 浏览器
+    lastLoginIp: IP
+    lastLoginOs: 操作系统
+    lastLoginTime: 登录时间
+    name: 姓名
+    userList: 用户列表
+operationLog:
+  button:
+    clear: 清空
+  label:
+    account: 操作人
+    browser: 浏览器
+    className: 类名称
+    ip: IP
+    logList: 日志列表
+    message: 具体消息
+    name: 日志名称
+    opTime: 操作时间
+    opType: 操作类型
+    os: 操作系统
+    param: 请求参数
+    result: 返回结果
+    success: 是否成功
+    url: 请求地址
+  modal:
+    detail: 日志明细
+org:
+  button:
+    add: 新增
+  label:
+    name: 分组名称
+    orgList: 分组列表
+    parent: 上级分组
+    secret: 密钥
+  modal:
+    add: 新增分组
+    edit: 编辑分组
+overview:
+  label:
+    groupList: 分组列表
+resource:
+  button:
+    refresh: 刷新
+  label:
+    cpu: CPU
+    disk: 磁盘
+    io: IO
+    memory: 内存
+    sysVersion: 系统版本
+    system: 系统资源
+    version: 应用版本
+role:
+  button:
+    add: 新增角色
+    grantData: 授权数据
+    grantMenu: 授权菜单
+  label:
+    dataScope:
+      name: 授权范围
+      option1: 全部数据
+      option2: 分组及以下数据
+      option3: 仅分组数据
+      option4: 仅本人数据
+    name: 角色名称
+    roleList: 角色列表
+  modal:
+    add: 新增角色
+    edit: 编辑角色
+    grantData: 授权数据
+    grantMenu: 授权菜单
+setting:
+  baseSetting: 基本设置
+  changeAvatar: 更换头像
+  secureSetting: 安全设置
+timedTask:
+  button:
+    add: 新增
+  label:
+    actionClass: 类名
+    cron: 定时器
+    start: 启动
+    stop: 停止
+    taskList: 任务列表
+    timerName: 任务名称
+  modal:
+    add: 新增任务
+    edit: 编辑任务

@@ -1,0 +1,338 @@
+alarm:
+  record:
+    button:
+      emailConfig: 邮箱配置
+      emailTest: 邮件发送测试
+      empty: 清空
+    emailTest:
+      content: <p>告警测试</p>
+      title: 告警测试
+    label:
+      alarmKey: 告警主体
+      alarmObject: 告警对象
+      alarmValue: 告警值
+      status-0: 未通知
+      status-1: 已通知
+    modal:
+      emailTest:
+        emailTo: 请输入收件人邮箱
+        title: 邮件发送测试
+  rule:
+    button:
+      add: 新增
+    label:
+      alarmCycle: 告警周期(分钟)
+      alarmRange: 告警范围
+      basicInfo: 基础配置
+      condition: 触发条件
+      effectiveTime: 生效时间
+      execTime: 执行时间
+      name: 规则名称
+      noticeType: 通知方式
+      noticeType-1: 邮件
+      noticeType-2: 短信
+      recipient: 接收人
+      ruleList: 告警规则列表
+    modal:
+      add: 新增告警规则
+      edit: 编辑告警规则
+    msg:
+      msg-1: 阈值
+    placeholder-condition: 操作符
+    placeholder-threshold: 阈值
+    placeholder-type: 告警类型
+  template:
+    label:
+      content: 模板
+      title: 标题
+    modal:
+      edit: 编辑模板
+    msg:
+      msg-1: '请插入占位符: {}'
+  type:
+    flowDay: 日流量
+    flowMonth: 月流量
+    netStatusDown: 网络断开
+    netStatusUp: 网络连接
+    netSwitch: 网络切换
+    offline: 下线
+    onlineRate: 在线率
+    positionOffset: 位置偏移
+    powerOff: 设备掉电
+    powerOn: 设备上电
+    signal: 信号强度
+    vpnStatusDown: VPN断开
+    vpnStatusUp: VPN连接
+alarmList:
+  button:
+    alarmProcessing: 告警处理
+  card:
+    dayFlow: 日流量告警
+    groupDayFlow: 分组日流量告警
+    groupOnline: 分组日上线率告警
+    onlineAlarm: 在线率告警
+    signalAlarm: 信号强度告警
+    switchNet: 网络切换告警
+  label:
+    alarmContent: 告警内容
+    alarmEquipment: 告警设备
+    alarmList: 告警列表
+    alarmTime: 告警时间
+    alarmTypes: 告警类型
+    alarmValue: 报警阈值
+    historyRecord: 历史记录
+    realtimeRecord: 实时记录
+common:
+  label:
+    devSn: 设备序列号
+    orgName: 分组
+  msg:
+    noLocableDevices: 选择列表没有可定位设备
+    selectOneOnly: 只能选择一条记录！
+    selectOneOrMore: 请至少选择一条记录！
+    selectOnlineDevice: 请选择在线设备
+dashboard:
+  alertCard:
+    action: 告警
+    title: 今天/总数
+  deviceCard:
+    action: 设备
+    onlineRate: '在线率:'
+    title: 在线/离线/总数
+  deviceLocation:
+    title: 设备使用位置
+  firmware:
+    title: 设备固件
+  modelNo:
+    title: 设备型号
+  netCard:
+    action: 网络
+    title: 5G/4G/其他
+  networkType:
+    title: 网络类型
+  onlineTrend:
+    legend_1: 在线
+    legend_2: 总数
+    title: 在线趋势
+  signalStrength:
+    title: 信号强度
+  softVer:
+    title: 软件分布
+  taskCard:
+    action: 任务
+    title: 执行中/成功/失败
+  trafficTrend:
+    legend_1: 上行
+    legend_2: 下行
+    title: 流量趋势
+device:
+  button:
+    adjustOrg: 调整分组
+    config: 参数配置
+    gui: 远程访问
+    location: 设备位置
+    reboot: 设备重启
+    sdlan: SDLAN
+    serialPort: 串口
+    syncConfig: 同步参数
+    upgrade: 设备升级
+  label:
+    cpuUse: CPU占用
+    dayFlow: 日流量
+    deviceList: 设备列表
+    hardVer: 硬件版本
+    heartbeat: 心跳时间
+    location: 安装位置
+    loginTime: 上线时间
+    memUse: 内存占用
+    monthFlow: 月流量
+    name: 设备名称
+    netType: 网络类型
+    onlineDuration: 在线时长
+    operator: 运营商
+    serial-baudrate: 波特率
+    serial-databit: 数据位
+    serial-name: 串口名
+    serial-parity: 校验方式
+    serial-status: 串口状态
+    serial-stopbit: 停止位
+    simType: SIM类型
+    softVer: 软件版本
+    statusFlag: 设备状态
+    uptime: 今天在线
+  modal:
+    adjustOrg: 调整分组
+    config: 参数配置
+    detail: 设备详情
+    remoteGUI: 远程页面
+    serial: 串口通信
+    upgrade: 设备升级
+deviceTask:
+  label:
+    beginTime: 开始时间
+    createTime: 创建日期
+    executingCount: 执行中
+    failureCount: 失败
+    fileName: 文件名称
+    finishTime: 完成时间
+    params: 参数配置
+    planBeginTime: 计划时间
+    successCount: 成功
+    taskList: 任务列表
+    taskType: 任务类型
+    totalCount: 总数量
+    unexecutedCount: 未执行
+  option:
+    forceUpgrade-0: 智能升级
+    forceUpgrade-1: 强制升级
+    status-0: 创建
+    status-1: 启动
+    status-2: 成功
+    status-3: 失败
+    type-0: 升级
+    type-1: 重启
+    type-2: 配置
+  tooltip:
+    delete: 删除任务
+    forceUpgrade-0: 自动忽略已升级成功的固件
+    forceUpgrade-1: 若之前升级过此固件依然再次升级
+    redo: 重新执行失败任务
+    smartUpgradeConfirm: 所选设备若已全部升级过此文件则不会创建升级任务，确定继续吗？
+    start: 启动任务
+    taskList: 查看任务列表
+gis:
+  info:
+    devSerialNo: 设备序列号
+    devSn: 设备号
+    devStatus: 设备状态
+    deviceGroup: 设备分组
+    location: 位置
+    mileage: 里程
+    mileageUnit: 公里
+    numberofSatellites: 卫星数
+    speed: 速度
+    speedUnit: 公里/时(西)
+    time: 时间
+    todayMileage: 今日里程
+  label:
+    apply: 应用
+    decrease: 减小
+    device: 设备
+    increase: 增大
+    interval: 静止时长(毫秒)
+    normalPlayback: 正常回放
+    quickPlayback: 快速回放
+    trackMovingStep: 轨迹移动次数
+    trackPlayback: 轨迹回放
+ipfix:
+  label:
+    ipfixList: IPFIX列表
+offline:
+  label:
+    deviceSn: 设备SN
+    group: 分组
+    ip: IP
+    lastLogout: 离线时间
+    location: 位置
+    timeout: 掉线时间
+    timestamp: 末次交互
+recovery:
+  label:
+    backupCycle: 清理周期
+    backupDatabase: 数据库明名
+    cleanObject: 清理对象
+    dataStrategy: 数据策略
+    header: 数据清理与备份
+    ip: IP
+    password: 密码
+    port: 端口
+    title: 数据清理
+    type: 数据库类型
+    username: 用户名
+sdlan:
+  label:
+    add: 添加
+    devSn: 设备SN
+    ip: IP
+    port: 端口
+    protocol: 协议
+  modal:
+    devSn: 设备SN
+    ip: IP
+    ip-tooltip: 路由器：127.0.0.1 终端：LAN IP
+    name: 名称
+    port: 端口
+    port-tooltip: 路由器端口或终端端口
+    protocol: 协议
+    target: 打开方式
+    title: 编辑App
+  option:
+    target-0: 弹窗
+    target-1: 新页面
+suspended:
+  label:
+    deletionTime: 删除时间
+    deviceSn: 设备SN
+    lastLogin: 末次登录
+    lastinteraction: 末次交互
+taskList:
+  button:
+    retry: 重试
+  card:
+    other: 其他
+    paramsConfiguration: 参数配置
+    remoteRestart: 远程重启
+    remoteUpgrade: 远程升级
+  label:
+    all: 全部
+    createTime: 创建时间
+    creator: 操作人
+    deviceSn: 设备SN
+    error: 失败
+    execEndTime: 结束时间
+    execstartTime: 开始时间
+    failMsg: 异常消息
+    historyTask: 历史任务
+    operation: 操作
+    realtimeTask: 实时任务
+    status: 任务状态
+    success: 成功
+    taskList: 任务列表
+    taskType: 任务类型
+    type: 任务类型
+topRank:
+  alarmTop:
+    alarm: 告警
+    title: 告警Top
+    total: 总数
+  alarmTypeTop:
+    alarm: 告警类型
+    title: 告警类型Top
+    total: 总数
+  deviceOnlineRate:
+    device: 设备
+    onlineRate: 占比
+    title: 设备在线率Top
+  deviceTraffic:
+    device: 设备
+    title: 设备流量TOP
+    traffic: 流量
+  groupOnlineRate:
+    group: 分组名称
+    title: 分组在线率Top
+  networkType:
+    networkType: 网络类型
+    title: 网络类型Top
+    total: 总数
+  packetTrafficTOP:
+    flow: 流量
+    group: 分组
+    title: 分组流量TOP
+  signalStrength:
+    csq: 信号
+    imei: IMEI
+    title: 信号强度Top
+  versionTop:
+    title: 单台设备版本Top
+    total: 总数
+    version: 设备版本
