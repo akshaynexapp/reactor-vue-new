@@ -1,0 +1,76 @@
+alarm:
+  moduleName: ALARMS
+  record: RECORDS
+  rule: RULES
+  template: TEMPLATE
+  list: LIST
+  config: CONFIG
+button:
+  add: Add
+  change: Change
+  delete: Delete
+  detail: Detail
+  download: Download
+  edit: Edit
+  export: Export
+  import: Import
+  empty: Empty
+  list: List
+  page: Page
+  preview: Preview
+  selector: Selector
+  upload: Upload
+  startTask: Start
+  redoTask: Redo
+overview:
+  statistics: STATISTICS OVERVIEW
+  moduleName: DATA OVERVIEW
+  rank: TOP RANK
+development:
+  config: CONFIG
+  moduleName: DEVELOPER
+  swagger: API DOC
+device:
+  onlineList: ONLINE DEVICES
+  onlineListNew: ONLINE DEVICES New
+  offlineList: OFFLINE DEVICES
+  moduleName: DEVICE
+  remoteGUI: Device GUI
+  monitor: Device Monitor
+  offline: OFFLINE DEVICE
+  suspended: SUSPENDED DEVICE
+  GIS: GIS View
+  Recycle: Devices Recycle Bin
+log:
+  moduleName: LOGS
+  opLog: OPERATION LOG
+  visLog: ACCESS LOG
+login: LOGIN
+monitor:
+  database: DATABASE
+  moduleName: MONITOR
+  onlineUser: ONLINE USER
+system:
+  account: ACCOUNTS
+  accountSetting: Setting
+  group: GROUPS
+  file: FILES
+  menu: MENUS
+  moduleName: SYSTEM
+  password: Change password
+  role: ROLES
+  resource: RESOURCE
+  license: LICENSE
+task:
+  moduleName: TASK
+  taskList: TASK LIST
+  timedTask: TIMED TASK
+  deviceTask: DEVICE TASK
+  deviceTaskDetail: TASK DETAIL
+business:
+  moduleName: BUSINESS
+  group: GROUP
+  role: ROLES
+  files: FILES
+  recovery: RECOVERY
+  account: ACCOUNTS

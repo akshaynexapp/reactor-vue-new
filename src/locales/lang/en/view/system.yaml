@@ -1,0 +1,223 @@
+accessLog:
+  button:
+    clear: Clear
+  label:
+    accessLogList: Log List
+    account: Account
+    browser: Browser
+    ip: IP
+    name: Log Name
+    success: Success
+    visTime: Access Time
+    visType: Access Type
+account:
+  button:
+    add: Add
+  label:
+    account: Account
+    accountList: Account List
+    adminType: Type
+    adminType-0: User
+    adminType-1: Admin
+    birthday: Birthday
+    confirmPassword: Confirm Password
+    deleteAccount: Delete Account
+    editAccount: Edit Account
+    email: Email
+    name: Name
+    org: Group
+    orgList: Group List
+    orgName: Group
+    passwordNew: New Password
+    passwordOld: Old Password
+    phone: Phone
+    pwd: Password
+    resetPassword: Reset Password
+    role: Role
+    sex: Gender
+    sex-0: Male
+    sex-1: Female
+    updateAvatar: Update Avatar
+  modal:
+    add: Add Account
+    edit: Edit Account
+    updatePassword: Change Password
+  msg:
+    confirmResetPass: Confirm to reset the password?
+    inputPassword: Please enter a new password
+    notAllowNull: Can not be empty
+    passDifferent: The passwords entered two times are inconsistent!
+    passNotAllowSame: The old and new passwords cannot be the same
+    password-weak: The new password is not strong enough!
+  placeholder1: Please enter account or name or phone number
+config:
+  button:
+    add: Add
+  label:
+    code: Code
+    configList: Config List
+    name: Name
+    sysFlag: Sys Flag
+    value: Value
+  modal:
+    add: Add Config
+    edit: Edit Config
+file:
+  label:
+    fileBucket: File Bucket
+    fileList: File List
+    fileObjectName: Object Name
+    fileOriginName: File Name
+    fileSizeInfo: File Size
+    fileSuffix: File Suffix
+group:
+  button:
+    add: Add Group
+  label:
+    createName: Create Name
+    createTime: Create Time
+    groupList: Group List
+    name: Name
+    parent: Parent Group
+  modal:
+    add: Add Group
+    edit: Edit Group
+license:
+  button:
+    cancel: Cancel
+    edit: Edit
+    save: Save
+  label:
+    authCode: Auth Code
+    expiration: Expiration Time
+    macAddress: Mac Address
+    platform: Platform Name
+    quantity: Authorization Quantity
+    regisiter: REGISITER
+    status: Authorization Status
+    sysNo: System NO
+  message:
+    authorized: Authorized
+    unauthorized: Unauthorized,
+  status:
+    'no': 'No'
+    'yes': 'Yes'
+menu:
+  button:
+    add: Add
+  label:
+    button: BUTTON
+    carryParam: Carry Param
+    component: Component
+    dir: DIR
+    frameSrc: Frame Src
+    icon: Icon
+    ignoreKeepAlive: Cache Page
+    isShow: Show
+    menu: MENU
+    menuList: Menu List
+    name: Menu Name
+    parent: Parent
+    path: Path
+    permCode: Perm Code
+    redirect: Redirect
+    title: Menu Title
+    type: Menu Type
+    weight: Weight
+    weight-0: User
+    weight-1: Admin
+  modal:
+    add: Add Menu
+    edit: Edit Menu
+onlineUser:
+  label:
+    account: Account
+    forceExist: Force Offline
+    lastLoginBrowser: Browser
+    lastLoginIp: IP
+    lastLoginOs: OS
+    lastLoginTime: Login Time
+    name: Name
+    userList: User List
+operationLog:
+  button:
+    clear: Clear
+  clear: Clear
+  label:
+    account: Account
+    browser: Browser
+    className: Class Name
+    ip: IP
+    logList: Log List
+    message: Message
+    name: Log Name
+    opTime: Operation Time
+    opType: Type
+    os: OS
+    param: Params
+    result: Result
+    success: Success
+    url: Request URL
+  modal:
+    detail: Log Detail
+org:
+  button:
+    add: Add
+  label:
+    name: Group Name
+    orgList: Group List
+    parent: Parent Group
+    secret: Secret
+  modal:
+    add: Add Group
+    edit: Edit Group
+overview:
+  label:
+    groupList: Group List
+resource:
+  button:
+    refresh: Refresh
+  label:
+    cpu: CPU
+    disk: DISK
+    io: IO
+    memory: MEMORY
+    sysVersion: System Version
+    system: System
+    version: Version
+role:
+  button:
+    add: Add Role
+    grantData: Grant Data
+    grantMenu: Grant Menu
+  label:
+    dataScope:
+      name: Data Scope
+      option1: All data
+      option2: Group and below
+      option3: Group data
+      option4: Personal data only
+    name: Role Name
+    roleList: Role List
+  modal:
+    add: Add Role
+    edit: Edit Role
+    grantData: Grant Data
+    grantMenu: Grant Menu
+setting:
+  baseSetting: Base Setting
+  changeAvatar: Change Avatar
+  secureSetting: Secure Setting
+timedTask:
+  button:
+    add: Add
+  label:
+    actionClass: Action Class
+    cron: Cron
+    start: start
+    stop: stop
+    taskList: Task List
+    timerName: Task Name
+  modal:
+    add: Add Task
+    edit: Edit Task

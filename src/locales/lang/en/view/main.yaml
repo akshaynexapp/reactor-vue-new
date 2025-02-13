@@ -1,0 +1,339 @@
+alarm:
+  record:
+    button:
+      emailConfig: Email Config
+      emailTest: Email Send Test
+      empty: Empty
+    emailTest:
+      content: <p>Alarm Test</p>
+      title: Alarm Test
+    label:
+      alarmKey: Alarm Host
+      alarmObject: Alarm Object
+      alarmValue: Alarm Value
+      status-0: Not Notified
+      status-1: Notified
+    modal:
+      emailTest:
+        emailTo: Please input email
+        title: Email Send Test
+  rule:
+    button:
+      add: Add
+    label:
+      alarmCycle: Interval(Minute)
+      alarmRange: Alarm Range
+      basicInfo: BASIC INFO
+      condition: CONDITION
+      effectiveTime: Effective Time
+      execTime: Exec Time
+      name: Rule Name
+      noticeType: NOTICE TYPE
+      noticeType-1: Mail
+      noticeType-2: SMS
+      recipient: Recipient
+      ruleList: Alarm Rule List
+    modal:
+      add: Add Alarm Rule
+      edit: Edit Alarm Rule
+    msg:
+      msg-1: Threshold
+    placeholder-condition: Operator
+    placeholder-threshold: Threshold
+    placeholder-type: Alarm Type
+  template:
+    label:
+      content: Template
+      title: Title
+    modal:
+      edit: Edit Template
+    msg:
+      msg-1: 'Please insert the placeholder: {}'
+  type:
+    flowDay: Flow Day
+    flowMonth: Flow Month
+    netStatusDown: Net Down
+    netStatusUp: Net Up
+    netSwitch: Net Switch
+    offline: Offline
+    onlineRate: Online Rate
+    positionOffset: Position Offset
+    powerOff: Power Off
+    powerOn: Power On
+    signal: Signal
+    vpnStatusDown: VPN Down
+    vpnStatusUp: VPN Up
+alarmList:
+  button:
+    alarmProcessing: Alarm Processing
+  card:
+    dayFlow: Day Flow
+    groupDayFlow: Group Day Flow
+    groupOnline: Group Online
+    onlineAlarm: Online Alarm
+    signalAlarm: Signal Alarm
+    switchNet: Switch Net
+  label:
+    alarmContent: Alarm Content
+    alarmEquipment: Alarm Equipment
+    alarmList: Alarm List
+    alarmTime: Alarm Time
+    alarmTypes: Alarm Types
+    alarmValue: Alarm Value
+    historyRecord: History Record
+    realtimeRecord: Realtime Record
+common:
+  label:
+    devSn: Device SN
+    orgName: Group
+  msg:
+    noLocableDevices: There are no locable devices in the selection list
+    selectOneOnly: Please select one record!
+    selectOneOrMore: Please select at least one record!
+    selectOnlineDevice: Please select online device
+dashboard:
+  alertCard:
+    action: ALARM
+    title: Today/Total
+  deviceCard:
+    action: DEVICE
+    onlineRate: 'Online Rate: '
+    title: Online/Offline/Total
+  deviceLocation:
+    title: Device Location
+  firmware:
+    title: Firmware
+  modelNo:
+    title: ModelNo
+  netCard:
+    action: NETWORKS
+    title: 5G/4G/Others
+  networkType:
+    title: Network Type
+  onlineTrend:
+    legend_1: Online
+    legend_2: Total
+    title: Online Trends
+  signalStrength:
+    title: Signal Strength
+  softVer:
+    title: Soft Distribution
+  taskCard:
+    action: TASK
+    title: Executing/Success/Failed
+  trafficTrend:
+    legend_1: Up
+    legend_2: Down
+    title: Traffic Trends
+device:
+  button:
+    adjustOrg: Adjust Group
+    config: Push Config
+    gui: Remote GUI
+    location: Device Location
+    reboot: Dev Reboot
+    sdlan: SDLAN
+    serialPort: Serial Port
+    syncConfig: Pull Config
+    upgrade: Dev Upgrade
+  label:
+    cpuUse: CPU Used
+    dayFlow: Day Flow
+    deviceList: Device List
+    hardVer: Hard Ver
+    heartbeat: Last Connect
+    location: Location
+    loginTime: Login Time
+    memUse: Mem Used
+    monthFlow: Month Flow
+    name: Device Name
+    netType: Net Type
+    onlineDuration: Online Duration
+    operator: Carrier
+    serial-baudrate: Baudrate
+    serial-databit: Databit
+    serial-name: Name
+    serial-parity: Parity
+    serial-status: Status
+    serial-stopbit: Stopbit
+    simType: Sim Type
+    softVer: Soft Ver
+    statusFlag: Status
+    uptime: Uptime
+  modal:
+    adjustOrg: Adjust Group
+    config: Push Config
+    detail: Device Detail
+    remoteGUI: Remote GUI
+    serial: Serial Transmission
+    upgrade: Dev Upgrade
+deviceTask:
+  label:
+    beginTime: Begin Time
+    createTime: Create Time
+    executingCount: Executing
+    failureCount: Failure
+    fileName: File Name
+    finishTime: Finish Time
+    params: Parameters
+    planBeginTime: Plan Time
+    successCount: Success
+    taskList: Task List
+    taskType: Task Type
+    totalCount: Total
+    unexecutedCount: Unexecuted
+  option:
+    forceUpgrade-0: Smart Upgrade
+    forceUpgrade-1: Force Upgrade
+    status-0: create
+    status-1: start
+    status-2: success
+    status-3: failure
+    status-4: cancel
+    type-0: Upgrade
+    type-1: Reboot
+    type-2: Config
+  tooltip:
+    delete: Delete task
+    forceUpgrade-0: Automatically ignore firmware that has been successfully upgraded
+    forceUpgrade-1: If you have upgraded this firmware before, you can still upgrade it again
+    redo: Redo failed tasks
+    smartUpgradeConfirm: If all the selected devices have been upgraded with this file, no upgrade task will be created. Are you sure to continue?
+    start: Start task
+    taskList: View task list
+gis:
+  info:
+    devSerialNo: Device Serial Number
+    devSn: Device Sno
+    devStatus: Device Status
+    deviceGroup: Device Group
+    location: Location
+    mileage: Mileage
+    mileageUnit: kilometre
+    numberofSatellites: Number of satellites
+    speed: Speed
+    speedUnit: Km / h (West)
+    time: Time
+    todayMileage: Today Mileage
+  label:
+    apply: Apply
+    decrease: Decrease
+    device: Device
+    increase: Increase
+    interval: Interval(millisecond)
+    normalPlayback: Normal playback
+    quickPlayback: Quick playback
+    trackMovingStep: Track moving count
+    trackPlayback: Track playback
+ipfix:
+  label:
+    ipfixList: IPFIX List
+offline:
+  label:
+    deviceSn: Device SN
+    group: Group
+    ip: IP
+    lastLogout: Last Logout
+    location: Location
+    timeout: TimeOut
+    timestamp: Timestamp
+recovery:
+  label:
+    backupCycle: Backup Cycle
+    backupDatabase: Backup Database
+    cleanObject: Clean Object
+    dataStrategy: Data Strategy
+    header: Data Cleaning And Backup
+    ip: IP
+    password: Password
+    port: Port
+    title: Data Clearning
+    type: Type
+    username: User Name
+sdlan:
+  label:
+    add: Add
+    devSn: Device SN
+    ip: IP
+    port: Port
+    protocol: Protocol
+  modal:
+    devSn: Device SN
+    ip: IP
+    ip-tooltip: 'Router: 127.0.0.1 Terminal：LAN IP'
+    name: Name
+    port: Port
+    port-tooltip: Port of router or terminal
+    protocol: Protocol
+    target: Open Type
+    title: Edit App
+  option:
+    target-0: Dialog
+    target-1: Browser
+suspended:
+  label:
+    deletionTime: Deletion Time
+    deviceSn: Device SN
+    lastLogin: last Login
+    lastinteraction: Last Interaction
+taskList:
+  button:
+    retry: Retry
+  card:
+    other: Other
+    paramsConfiguration: Params Configuration
+    remoteRestart: Remote Restart
+    remoteUpgrade: Remote Upgrade
+  label:
+    all: All
+    createTime: CreateTime
+    creator: Creator
+    deviceSn: Device SN
+    error: Error
+    execEndTime: ExecEnd Time
+    execstartTime: Execstart Time
+    failMsg: FailMsg
+    historyTask: History Task
+    operation: Operation
+    realtimeTask: Realtime Task
+    status: Status
+    success: Success
+    taskList: Task List
+    taskType: Task Type
+    type: Type
+topRank:
+  alarmTop:
+    alarm: Alarm
+    title: Alarm Top
+    total: Total
+  alarmTypeTop:
+    alarm: Alarm Type
+    title: Alarm Type Top
+    total: Total
+  deviceOnlineRate:
+    device: Device
+    onlineRate: Percent
+    title: Device OnlineRate Top
+  deviceTraffic:
+    device: Device
+    title: Device Traffic TOP
+    traffic: Traffic
+  groupOnlineRate:
+    group: Group Name
+    title: Group Online Rate Top
+  networkType:
+    networkType: Network Type
+    title: Network Type Top
+    total: Total
+  packetTrafficTOP:
+    flow: Flow
+    group: Group Name
+    title: Group Traffic TOP
+  signalStrength:
+    csq: CSQ
+    imei: IMEI
+    title: Signal Strength Top
+  versionTop:
+    title: Version Top
+    total: Total
+    version: Device Version
