@@ -447,8 +447,8 @@
           ext02: district,
           beginTime: beginTime,
           endTime: endTime,
-          username: 'Apts',
-          password: 'Apts@20256',
+          username: import.meta.env.VITE_USERNAME,
+          password: import.meta.env.VITE_PASSWORD,
         },
       });
 
