@@ -2,7 +2,7 @@
   <div class="gmap-wrapper">
     <GoogleMap
       id="gmap"
-      api-key=""
+      api-key="import.meta.env.VITE_GOOGLE_MAPS_API_KEY"
       style="width: 100%; height: 100%"
       :center="center"
       :zoom="15"
